@@ -1,4 +1,5 @@
 import Avatar from "@mui/material/Avatar";
+import "./story.scss";
 
 type StoryProps = {
     image: string;
@@ -7,6 +8,6 @@ type StoryProps = {
 
 export const Story = (props: StoryProps) => {
   return (
-      <Avatar alt={props.alt} src={props.image} />
+      <Avatar className="avatar" alt={props.alt} src={props.image} />
   );
 };

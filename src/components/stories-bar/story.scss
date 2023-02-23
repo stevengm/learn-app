@@ -1,0 +1,10 @@
+@import "../../styles/colors.scss";
+
+.avatar{
+    padding: 2px;
+    background: linear-gradient(to right, $avatar-border-color-main, $avatar-border-color-secondary);
+    border-radius: 20px;
+    & > img {
+        border-radius: 20px;
+    }
+}
